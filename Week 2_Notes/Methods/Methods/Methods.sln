@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsApp", "MethodsApp\MethodsApp.csproj", "{373CE893-6732-4604-8413-5937C9ADA11D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{373CE893-6732-4604-8413-5937C9ADA11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373CE893-6732-4604-8413-5937C9ADA11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373CE893-6732-4604-8413-5937C9ADA11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373CE893-6732-4604-8413-5937C9ADA11D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A45160BD-6255-4EF2-9C56-752E1E2FF7AB}
+	EndGlobalSection
+EndGlobal

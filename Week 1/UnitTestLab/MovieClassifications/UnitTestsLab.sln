@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieClassifications", "UnitTestsLab\MovieClassifications.csproj", "{FC616CDB-3CF6-45F7-9929-6FAB95F544EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassificationsTests", "ClassificationsTests\ClassificationsTests.csproj", "{EA7DDFFC-FD2A-4C9F-BC56-56BC7116F2D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC616CDB-3CF6-45F7-9929-6FAB95F544EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC616CDB-3CF6-45F7-9929-6FAB95F544EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC616CDB-3CF6-45F7-9929-6FAB95F544EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC616CDB-3CF6-45F7-9929-6FAB95F544EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7DDFFC-FD2A-4C9F-BC56-56BC7116F2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7DDFFC-FD2A-4C9F-BC56-56BC7116F2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7DDFFC-FD2A-4C9F-BC56-56BC7116F2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7DDFFC-FD2A-4C9F-BC56-56BC7116F2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF0E1648-0280-40F0-BA2E-A52C88DB6937}
+	EndGlobalSection
+EndGlobal
