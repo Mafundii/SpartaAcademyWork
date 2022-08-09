@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "yes"?>
+<!-- Comments etc -->
+<spartan>
+   stream = "Engineering"&gt;
+   <firstName>Maks</firstName>
+   <lastName>Hadys</lastName>
+   <email>mhadys@spartaglobal.com</email>
+   <!-- SKILLS -->
+   <skillset>
+      <skillOne>C# programming</skillOne>
+      <skillTwo>XML</skillTwo>
+   </skillset>
+</spartan>

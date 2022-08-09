@@ -1,0 +1,22 @@
+{
+   "movies":[
+      {
+         "title": "Fellowship of the ring",
+         "releaseDate": 2001,
+         "isGoodMovie": true
+      },
+      {
+         "title": "The Shawshank Redemption",
+         "releaseDate": 1994,
+	 "isGoodMovie": true
+      },
+      {
+         "title": "Titanic",
+         "releaseDate": 1997,
+	 "isGoodMovie": false
+      }
+   ]
+}	
+
+
+	
