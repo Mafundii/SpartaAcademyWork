@@ -6,7 +6,7 @@ namespace AP_TestAutomationFramework.tests
 {
     public class Tests
     {
-        private AP_Website<FirefoxDriver> AP_Website = new();
+        private AP_Website<ChromeDriver> AP_Website = new();
 
         [Test]
         public void GivenIAmOnTheHomePage_WhenIClickTheSIgninButton_ThenIShouldLandOnTheSignInPage()

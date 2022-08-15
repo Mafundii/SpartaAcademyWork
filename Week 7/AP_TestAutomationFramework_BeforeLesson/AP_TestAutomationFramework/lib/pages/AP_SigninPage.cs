@@ -28,10 +28,10 @@ namespace AP_TestAutomationFramework.lib.pages
         public void ClickSignin() => _signinButton.Click();
         public string GetAlertTextSignin() => _signinAlert.Text;
         public void ClickForgotPasswordLink() => _forgotPasswordLink.Click();
-        public void InputSigninCredentials(ICredentials creds)
+        public void InputSigninCredentials(Credentials creds)
         {
             InputEmailLogin(creds.Email);
-            InputPasswordLogin(creds.Password)
+            InputPasswordLogin(creds.Password);
         }
         #endregion
     }

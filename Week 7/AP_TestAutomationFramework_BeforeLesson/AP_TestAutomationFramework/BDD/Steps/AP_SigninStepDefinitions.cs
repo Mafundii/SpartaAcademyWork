@@ -4,6 +4,7 @@ using AP_TestAutomationFramework.lib;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using NUnit.Framework;
+using AP_TestAutomationFramework.Utilities;
 
 namespace AP_TestAutomationFramework.BDD.Steps
 {
@@ -11,7 +12,7 @@ namespace AP_TestAutomationFramework.BDD.Steps
     public class AP_SigninStepDefinitions
     {
         public AP_Website<ChromeDriver> AP_Website { get; } = new AP_Website<ChromeDriver>();
-        private Credentials
+        private Credentials _credentials;
 
         [Given(@"I am on the signin page")]
         public void GivenIAmOnTheSigninPage()
@@ -22,7 +23,7 @@ namespace AP_TestAutomationFramework.BDD.Steps
         [Given(@"I have the following credentials:")]
         public void GivenIHaveTheFollowingCredentials(Table table)
         {
-            _credentials = 
+            Credentials = _credentials;
         }
 
         [When(@"enter these credentials")]
